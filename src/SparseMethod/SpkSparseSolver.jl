@@ -205,7 +205,7 @@ function factor!(s::SparseSolver{IT}) where {IT}
         return true
     end
     if ( ! s._inmatrixdone)
-        error("Sequence error. Matrix input not done yet.")
+        # error("Sequence error. Matrix input not done yet.")
         return false
     end
 
